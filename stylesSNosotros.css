@@ -1,0 +1,28 @@
+/* Estructura Global Flexbox */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* El contenido principal se expande */
+section,
+header {
+    flex-shrink: 0;
+}
+
+/* Si usas una etiqueta main o el contenido es corto, esto lo empuja */
+body>section:last-of-type {
+    flex-grow: 1;
+}
+
+/* Footer compacto */
+footer {
+    width: 100%;
+    padding: 1rem 0 !important;
+}

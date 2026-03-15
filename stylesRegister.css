@@ -1,0 +1,35 @@
+/* Estructura para fijar el footer abajo */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+
+section {
+    flex: 1 0 auto;
+    /* Empuja el footer al final */
+}
+
+/* Estilos de la tarjeta */
+.card-register {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/* Ajustes del footer */
+footer {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.85rem;
+}

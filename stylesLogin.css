@@ -1,0 +1,39 @@
+/* Estilos generales de estructura */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+
+/* El contenedor principal crece para empujar al footer */
+section {
+    flex: 1;
+}
+
+/* Estilos específicos de la tarjeta de Login */
+.card-login {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    width: 100%;
+    padding-top: 10px !important;
+    /* Forzamos un padding pequeño */
+    padding-bottom: 10px !important;
+    min-height: 40px;
+    /* Le damos una altura mínima baja */
+}
+
+footer p {
+    font-size: 0.8rem;
+    /* Texto más pequeño */
+    line-height: 1;
+    /* Quita espacio entre líneas */
+}

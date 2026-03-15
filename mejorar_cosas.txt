@@ -1,0 +1,16 @@
+Mejorar el modelo de bases de datos (añadir más tablas; Divisas, metodos de pago, monedas, pais de cada cliente) HECHO
+Trigger super sencillo(lógico) asi que hacer triggers mas chulos como pedidos de un usuario (un registro) que aparezca cuantos ha hecho  HECHO
+Meterle el cambio de login a logout, haciendo que salga el perfil de usuario como un "Hola $user" y que pueda acceder a su perfil y modificar sus propias cosas  HECHO 
+Meter las interfaces de admin( añadir y quitar productos ) y de usuario(ver el catálogo y poder hacer pedidos) para que ya se vayan separando HECHO
+Precio acorde al producto comprado (página de finalizar compra) HECHO 
+Crear página en la que salgan los pedidos realizados de cada user HECHO
+Borrar de admin_usuarios.php barra busqueda, exportar y mensajes. Cambiar panel con la redireccion y ver si funcioan HECHO y FUNCIONA
+Cuando un usuario hace un pedido, y se busca los detalles de ese usuario, el total gastado es igual a 0 siempre, por tanto igual hay que conectar con la base de datos y crear una tabla nueva que asigne los pedidos con el dinero y el usuario para poder sacar un total HECHO Y FUNCIONA
+Los productos se categoricen (proximamente poder filtrarlos por categoría) HECHO
+Crear la página para las rebajas (todo en el CRUD y que solo lo pueda hacer el admin) HECHO
+Crear de alguna forma el método de valoraciones ( IDEA CELIA : crear una página cada vez q pinchas en un producto para poder valorarlo) HECHO
+Cuando añado un producto como admin, el color desaparece del ADMIN ROJO REVISAR
+Cuando tengo el carrito en 0, el footer saca cosas raras , y cuando añado algo desaparecen REVISAR
+ 
+UTLIMO
+Hacer que las imagenes se puedan insertar del propio ordenador, porque queda raro que al crear un producto no pueda navegar ni instertar
